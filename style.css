@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(93, 126, 152);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 40px;
+    background-color: rgb(71, 102, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-label {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+#input-field {
+    height: 30px;
+    margin-right: 5px;
+}
+#search {
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+.getPosts {
+    margin-left: 5px;
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+    color: white;
+    background-color: rgb(34, 70, 98);
+
+}
+.getPosts:hover {
+    background-color: white;
+    color: rgb(89, 134, 167);
+}
+.sort {
+    background-color: rgb(34, 70, 98);
+    margin-left: 5px;
+    height: 30px;
+    padding: 0 14px;
+    border: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(34, 70, 98);
+    padding: 15px 0;
+    margin-bottom: 5px;
+}
+.every-post {
+    padding-left: 50px;
+    text-align: left;
+    display: flex;
+}

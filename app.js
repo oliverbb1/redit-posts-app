@@ -22,7 +22,7 @@ const showUsers = (arr) => {
     let output = '';
 
 arr.forEach(({ data: { title, url } }) => {output += `<div>
-    <a href=${url}>${title}<a/>
+    <a class="every-post" href=${url}>${title}<a/>
 </div>`});
 posts.innerHTML = output;
 }
@@ -43,7 +43,7 @@ const ascendingPosts = () => {
     showUsers(ascPost)
 }
 const descendingPosts = () => {
-    // console.log(users)
+    console.log(users)
     const descPost = users.sort((a, b) => b.data.created - a.data.created)
     showUsers(descPost)
 }
